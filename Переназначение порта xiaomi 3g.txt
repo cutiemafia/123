@@ -1,0 +1,50 @@
+config interface 'loopback'
+        option device 'lo'
+        option proto 'static'
+        option ipaddr '127.0.0.1'
+        option netmask '255.0.0.0'
+config globals 'globals'
+        option ula_prefix 'fde1:0b45:3ad4::/48'
+        option packet_steering '1'
+		
+config device
+        option name 'br-lan'
+        option type 'bridge'
+        list ports 'lan1'
+		
+config interface 'lan'
+        option device 'br-lan'
+        option proto 'static'
+        option ipaddr '192.168.1.1'
+        option netmask '255.255.255.0'
+        option ip6assign '60'
+		
+config interface 'wan'
+        option device 'sw.2'
+        option proto 'pppoe'
+      option username 'pppoe-312306'
+      option password 'grPq8V5dd7H8'
+	  
+config interface 'wan6'
+        option device 'wan'
+        option proto 'dhcpv6'
+		
+config device
+         option type 'bridge'
+         option name 'sw'
+         list ports 'lan2'
+         list ports 'wan'
+         option bridge_empty '1'
+         option ipv6 '0'
+         option mtu '1500'
+         option txqueuelen '1000'
+		 
+ config bridge-vlan
+        option device 'sw'
+        option vlan '1'
+        list ports 'wan:u'
+		
+  config bridge-vlan
+       option device 'sw'
+       option vlan '2'
+       list ports 'lan2:u'
