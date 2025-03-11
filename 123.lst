@@ -813,3 +813,4 @@ nftset=/intel.com/4#inet#fw4#vpn_domains
 nftset=/knowyourmeme.com/4#inet#fw4#vpn_domains
 nftset=/sukebei.nyaa.si/4#inet#fw4#vpn_domains
 nftset=/last.fm/4#inet#fw4#vpn_domains
+nftset=/youtube.com/4#inet#fw4#vpn_domains
