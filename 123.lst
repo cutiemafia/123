@@ -818,3 +818,4 @@ nftset=/intel.com/4#inet#fw4#vpn_domains
 nftset=/store.steampowered.com/4#inet#fw4#vpn_domains
 nftset=/steampowered.com/4#inet#fw4#vpn_domains
 nftset=/fandom.com/4#inet#fw4#vpn_domains
+nftset=/discord.com/4#inet#fw4#vpn_domains
