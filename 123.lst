@@ -1468,3 +1468,4 @@ nftset=/grok.com/4#inet#fw4#vpn_domains
 nftset=/ddownr.com/4#inet#fw4#vpn_domains
 nftset=/simpcity.su/4#inet#fw4#vpn_domains
 nftset=/simpcity.cr/4#inet#fw4#vpn_domains
+nftset=/devices.ubuntu-touch.io/4#inet#fw4#vpn_domains
