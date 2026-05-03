@@ -1479,3 +1479,4 @@ nftset=/last.fm/4#inet#fw4#vpn_domains
 nftset=/audioscrobbler.com/4#inet#fw4#vpn_domains
 nftset=/ws.audioscrobbler.com/4#inet#fw4#vpn_domains
 nftset=/turbo.cr/4#inet#fw4#vpn_domains
+nftset=/twitch.tv/4#inet#fw4#vpn_domains
