@@ -1484,3 +1484,4 @@ nftset=/twitch.tv/4#inet#fw4#vpn_domains
 nftset=/hotameta.com/4#inet#fw4#vpn_domains
 nftset=/ext.to/4#inet#fw4#vpn_domains
 nftset=/nnm-club-me.ru/4#inet#fw4#vpn_domains
+nftset=/gamerant.com/4#inet#fw4#vpn_domains
