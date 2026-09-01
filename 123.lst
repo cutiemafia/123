@@ -1489,3 +1489,5 @@ nftset=/rottentomatoes.com/4#inet#fw4#vpn_domains
 nftset=/ntc.party/4#inet#fw4#vpn_domains
 nftset=/yt3.ggpht.com/4#inet#fw4#vpn_domains
 nftset=/klipy.com/4#inet#fw4#vpn_domains
+nftset=/pcmag.com/4#inet#fw4#vpn_domains
+nftset=/androidpolice.com/4#inet#fw4#vpn_domains
